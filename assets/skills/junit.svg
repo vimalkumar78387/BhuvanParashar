@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="junit-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#07140a"/>
+      <stop offset="100%" stop-color="#041007"/>
+    </linearGradient>
+    <linearGradient id="junit-green" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4ade80"/>
+      <stop offset="100%" stop-color="#16a34a"/>
+    </linearGradient>
+  </defs>
+  <rect width="48" height="48" rx="14" fill="url(#junit-bg)"/>
+  <circle cx="24" cy="24" r="10" fill="none" stroke="url(#junit-green)" stroke-width="2.8"/>
+  <path d="m20 24 3.2 3.4L28 21" fill="none" stroke="url(#junit-green)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

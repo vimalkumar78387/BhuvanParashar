@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060a16"/>
+      <stop offset="100%" stop-color="#0f1830"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6ee7ff"/>
+      <stop offset="100%" stop-color="#9b8cff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" rx="48" fill="url(#bg)"/>
+  <g opacity="0.16">
+    <circle cx="250" cy="160" r="180" fill="#6ee7ff"/>
+    <circle cx="920" cy="500" r="220" fill="#9b8cff"/>
+  </g>
+  <path d="M220 200h120c40 0 72 24 72 64s-32 64-72 64h-52v62h-68V200Zm68 48v32h44c10 0 20-4 20-16s-10-16-20-16h-44ZM510 198c64 0 118 48 118 118s-54 118-118 118-118-48-118-118 54-118 118-118Zm0 70c-30 0-50 22-50 48 0 28 20 48 50 48s50-20 50-48c0-26-20-48-50-48ZM720 204h108c54 0 86 28 86 72 0 34-22 56-50 62l62 96h-80l-54-88h-4v88h-68V204Zm68 48v36h42c12 0 20-6 20-18s-8-18-20-18h-42Z" fill="url(#accent)"/>
+  <text x="220" y="420" fill="#f1f5ff" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="44" letter-spacing="0.12em" opacity="0.72">JAVA · SPRING BOOT · FINTECH</text>
+  <text x="220" y="480" fill="#f1f5ff" font-family="Inter, Arial, sans-serif" font-size="28" opacity="0.72">Secure microservices · Payment architecture · Bank integrations</text>
+</svg>

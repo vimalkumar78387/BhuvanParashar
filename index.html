@@ -3,19 +3,20 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Bhuvan Parashar — Java • Spring Boot • Microservices</title>
-  <meta name="description" content="Software Engineer specializing in Java, Spring Boot, microservices, and fintech/payment systems." />
-  <meta name="theme-color" content="#0b1220"/>
+  <title>Bhuvan Parashar · Java & Spring Boot Specialist</title>
+  <meta name="description" content="Portfolio of Bhuvan Parashar – Software Engineer crafting secure, scalable payment platforms with Java, Spring Boot, and cloud-native architectures." />
+  <meta name="theme-color" content="#060912" />
+  <meta name="color-scheme" content="dark light" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300..900&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
-  <link rel="icon" href="assets/logo.svg">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css" />
-  <meta property="og:title" content="Bhuvan Parashar — Portfolio" />
-  <meta property="og:description" content="Java & Spring Boot engineer building scalable payment systems." />
+  <meta property="og:title" content="Bhuvan Parashar · Software Engineer" />
+  <meta property="og:description" content="4+ years building payments, microservices, and banking integrations with Java and Spring Boot." />
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="assets/og-cover.jpg" />
-  <meta name="color-scheme" content="dark light" />
+  <meta property="og:image" content="assets/og-cover.svg" />
+  <meta property="og:url" content="https://bhuvanparashar.dev" />
   <script type="application/ld+json">
   {
     "@context":"https://schema.org",
@@ -23,7 +24,8 @@
     "name":"Bhuvan Parashar",
     "jobTitle":"Software Engineer",
     "email":"mailto:bhuvan.parashar24@gmail.com",
-    "url":"https://YOURUSERNAME.github.io",
+    "telephone":"tel:+919716052290",
+    "url":"https://bhuvanparashar.dev",
     "sameAs":[
       "https://www.linkedin.com/in/bhuvan-parashar/"
     ]
@@ -34,250 +36,293 @@
   <canvas id="bg-canvas" aria-hidden="true"></canvas>
 
   <header class="site-header">
-    <a href="#" class="brand">
-      <img src="assets/logo.png.jpg" alt="" width="28" height="28" />
-      <span>Bhuvan Parashar</span>
-    </a>
+    <div class="brand">
+      <img src="assets/monogram.svg" alt="BP monogram" width="40" height="40" />
+      <div>
+        <span class="brand__eyebrow">Software Engineer</span>
+        <span class="brand__name">Bhuvan Parashar</span>
+      </div>
+    </div>
     <nav class="nav">
       <a href="#about">About</a>
+      <a href="#highlights">Highlights</a>
       <a href="#experience">Experience</a>
-      <a href="#skills">Skills</a>
-      <a href="#projects">Projects</a>
-      <a href="#education">Education</a>
+      <a href="#skills">Stack</a>
+      <a href="#career">Trajectory</a>
       <a href="#contact">Contact</a>
-      <button id="themeToggle" title="Toggle theme" aria-label="Toggle theme">☾</button>
+      <button id="themeToggle" title="Toggle theme" aria-label="Toggle theme">
+        <svg viewBox="0 0 24 24" role="img" aria-hidden="true"><path d="M12 3.1a1 1 0 0 1 1 1v1.8a1 1 0 0 1-2 0V4.1a1 1 0 0 1 1-1Zm0 14a1 1 0 0 1 1 1v1.8a1 1 0 0 1-2 0V18a1 1 0 0 1 1-1Zm8.9-5a1 1 0 0 1 1 1 1 1 0 0 1-1 1h-1.8a1 1 0 0 1 0-2h1.8ZM6.9 12a1 1 0 0 1-1 1H4.1a1 1 0 0 1 0-2h1.8a1 1 0 0 1 1 1Zm10.7 6.7a1 1 0 0 1 1.4 1.4l-1.2 1.3a1 1 0 0 1-1.4-1.4l1.2-1.3Zm-10-10a1 1 0 0 1 1.4-1.4l1.3 1.2a1 1 0 0 1-1.4 1.4l-1.3-1.2Zm10 0 1.3-1.2a1 1 0 0 1 1.4 1.4l-1.2 1.3a1 1 0 0 1-1.4-1.4Zm-10 10-1.2 1.3a1 1 0 0 1-1.4-1.4l1.3-1.3a1 1 0 0 1 1.4 1.4ZM12 6.6A5.4 5.4 0 1 0 12 17.4 5.4 5.4 0 0 0 12 6.6Z"/></svg>
+      </button>
     </nav>
   </header>
 
   <main>
-    <!-- ===== HERO ===== -->
-    <section id="home" class="hero container">
-      <div class="hero__text" data-animate="up">
-        <p class="eyebrow">Software Engineer</p>
-        <h1>
-          Building reliable, secure & scalable <span class="accent">payment systems</span><br>
-          with <span class="mono">Java</span>, <span class="mono">Spring&nbsp;Boot</span> & microservices
-        </h1>
+    <section id="hero" class="hero container">
+      <div class="hero__content" data-animate>
+        <p class="eyebrow">Java & Spring Boot Specialist</p>
+        <h1>Building resilient payment platforms for the next decade</h1>
         <p class="lede">
-          4+ years in backend development across banking & fintech—API design, microservices,
-          performance tuning, and secure transaction workflows. :contentReference[oaicite:0]{index=0}
+          I’m Bhuvan Parashar, a software engineer with 4+ years of experience crafting secure, high-performance banking and fintech systems across 10+ institutions. I modernize legacy monoliths into cloud-ready microservices and ship dependable transaction workflows.
         </p>
-        <div class="hero__cta">
-          <a class="btn btn--primary" href="assets/Parashar_Bhuvan_Software_Developer_CV.pdf" download>Download Résumé</a>
-          <a class="btn" href="#contact">Hire Me</a>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="assets/Parashar_Bhuvan_Software_Developer_CV.pdf" download>
+            <span>Download Résumé</span>
+            <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 2a1 1 0 0 1 1 1v7.59l2.3-2.3a1 1 0 0 1 1.4 1.42l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 0 1 1.4-1.42L9 10.59V3a1 1 0 0 1 1-1ZM4 14a1 1 0 1 0 0 2h12a1 1 0 1 0 0-2H4Z"/></svg>
+          </a>
+          <a class="btn btn--ghost" href="https://www.linkedin.com/in/bhuvan-parashar/" target="_blank" rel="noopener">
+            <span>Connect on LinkedIn</span>
+            <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 3a2 2 0 1 1 0 4 2 2 0 0 1 0-4Zm-2 5h4v9H3V8Zm6 0h3.6v1.2h.1c.5-.9 1.7-1.8 3.5-1.8 3.8 0 4.5 2.4 4.5 5.6V18h-4v-4.5c0-1.1 0-2.4-1.5-2.4s-1.7 1.2-1.7 2.3V18H9V8Z"/></svg>
+          </a>
         </div>
         <ul class="metrics">
-          <li><strong class="count" data-count="10">0</strong><span>Bank integrations</span></li>
-          <li><strong class="count" data-count="30">0</strong><span>% perf gains</span></li>
-          <li><strong class="count" data-count="4">0</strong><span>Years experience</span></li>
+          <li><span class="metrics__label">Bank Integrations</span><strong class="count" data-count="10">0</strong></li>
+          <li><span class="metrics__label">Performance Gains</span><strong class="count" data-count="30">0</strong><span class="metrics__suffix">%</span></li>
+          <li><span class="metrics__label">Projects Delivered</span><strong class="count" data-count="10">0</strong><span class="metrics__suffix">+</span></li>
         </ul>
       </div>
-
-      <div class="hero__media" data-animate="up" data-delay="0.1">
-        <div class="media-card card-tilt">
-          <video class="intro-video" controls preload="metadata" poster="assets/poster.jpg">
-            <source src="assets/intro.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-          <p class="caption">Replace <code>assets/intro.mp4</code> with your own intro video.</p>
+      <div class="hero__visual" data-animate data-delay="0.1">
+        <div class="portrait card-tilt">
+          <img src="assets/portrait.svg" alt="Portrait of Bhuvan Parashar" loading="lazy" width="420" height="520" />
+          <div class="portrait__glow"></div>
         </div>
       </div>
     </section>
 
-    <!-- ===== ABOUT ===== -->
-    <section id="about" class="container section">
-      <div class="section__head">
-        <h2>About</h2>
+    <section id="highlights" class="section section--highlights container">
+      <header class="section__head">
+        <h2>Impact Snapshots</h2>
+        <p>Architecture, fintech, performance, and leadership wins summed at a glance.</p>
+      </header>
+      <div class="highlight-grid">
+        <article class="highlight" data-animate>
+          <h3>Architecture &amp; Design</h3>
+          <p>Led monolith-to-microservice journeys with Proxy &amp; Security Interceptor patterns, uplifting scalability and maintenance across critical payment rails.</p>
+        </article>
+        <article class="highlight" data-animate data-delay="0.05">
+          <h3>Fintech Integrations</h3>
+          <p>Delivered 10+ bank integrations across credit card lifecycle, UPI, BNPL, wallets, and VAN-based systems with resilient API orchestration.</p>
+        </article>
+        <article class="highlight" data-animate data-delay="0.1">
+          <h3>Performance &amp; Security</h3>
+          <p>Optimized SQL, encryption, checksums, and fallback playbooks to drive 30% faster processing while hardening compliance-ready flows.</p>
+        </article>
+        <article class="highlight" data-animate data-delay="0.15">
+          <h3>Delivery Leadership</h3>
+          <p>Steered 10+ end-to-end launches, partnering with cross-functional teams via Agile to achieve 95% client satisfaction and faster turnarounds.</p>
+        </article>
       </div>
-      <div class="grid-2">
-        <div data-animate="up">
+    </section>
+
+    <section id="about" class="section container">
+      <header class="section__head">
+        <h2>About</h2>
+        <p>Secure engineering mindset with a passion for scalable payment journeys.</p>
+      </header>
+      <div class="about__body">
+        <div class="about__copy" data-animate>
           <p>
-            I design, build, and evolve high-throughput backend services for payments—modernizing monoliths into
-            microservices, hardening security, and squeezing latency out of data paths. I’ve delivered 10+ end-to-end
-            projects with 95% client satisfaction and mentor teammates along the way. :contentReference[oaicite:1]{index=1}
+            I architect and evolve backend platforms that financial institutions rely on every second. From modernizing legacy stacks to delivering new payment pathways, I blend rigorous systems thinking with developer empathy to keep teams shipping confidently.
           </p>
-          <ul class="ticks">
-            <li>REST & SOAP API lifecycles, orchestration, and integrations. :contentReference[oaicite:2]{index=2}</li>
-            <li>Wallet services, VAN systems, UPI & BNPL flows. :contentReference[oaicite:3]{index=3}</li>
-            <li>Encryption, checksums, retries/fallbacks, schedulers. :contentReference[oaicite:4]{index=4}</li>
-          </ul>
+          <p>
+            Currently, I’m deepening expertise in distributed microservices, observability, and container-native deployments—while exploring how AI/ML can automate runbooks and strengthen fraud detection.
+          </p>
         </div>
-        <aside class="callout" data-animate="up" data-delay="0.1">
-          <h3>Currently exploring</h3>
-          <p>Observability, distributed systems, containerization, and AI-assisted backend automation. :contentReference[oaicite:5]{index=5}</p>
-          <a class="link" href="#projects">See projects ↓</a>
+        <aside class="about__callout" data-animate data-delay="0.06">
+          <h3>What I bring</h3>
+          <ul>
+            <li>REST &amp; SOAP lifecycle mastery with robust orchestration.</li>
+            <li>UPI, VAN, wallet, and credit card domain fluency.</li>
+            <li>Playbooks for encryption, retries, and zero-downtime releases.</li>
+          </ul>
         </aside>
       </div>
     </section>
 
-    <!-- ===== EXPERIENCE ===== -->
-    <section id="experience" class="container section">
-      <div class="section__head">
+    <section id="experience" class="section section--experience container">
+      <header class="section__head">
         <h2>Experience</h2>
-      </div>
+        <p>Shaping payment ecosystems through resilient backend craftsmanship.</p>
+      </header>
       <ol class="timeline">
-        <li data-animate="up">
+        <li data-animate>
           <div class="timeline__card">
             <header>
-              <h3>Software Engineer · Obopay Mobile Technologies</h3>
-              <span class="meta">Bengaluru · Aug 2025 – Present</span>
+              <h3>Software Engineer · Confidential Fintech</h3>
+              <span class="meta">Jan 2025 – Present · Gurgaon, India</span>
             </header>
             <ul>
-              <li>Loyalty Program APIs—points, coupons, redemptions; stronger test coverage & reliability. :contentReference[oaicite:6]{index=6}</li>
-              <li>Credit card issuance/linking/transactions within wallet ecosystem; enhanced monolithic SOAP with Proxy & Security Interceptors. :contentReference[oaicite:7]{index=7}</li>
-              <li>SQL tuning, exception handling, tokenization; deployments on Tomcat/WebLogic with GCloud VCS. :contentReference[oaicite:8]{index=8}</li>
+              <li>Built loyalty APIs translating wallet transactions into reward points, coupons, and redemptions with audit-ready observability.</li>
+              <li>Applied Proxy pattern &amp; security interceptors to harden SOAP services while preparing microservice rollouts.</li>
+              <li>Drove SQL tuning, JUnit coverage, tokenization, and automation scripts that cut incident response times.</li>
+              <li>Managed deployments across Tomcat (dev) and Oracle WebLogic (prod) with governance on Google Cloud VCS.</li>
             </ul>
           </div>
         </li>
-        <li data-animate="up" data-delay="0.06">
+        <li data-animate>
           <div class="timeline__card">
             <header>
               <h3>Software Developer · SabPaisa (SRS Live Technologies)</h3>
-              <span class="meta">New Delhi · Feb 2022 – Jan 2025</span>
+              <span class="meta">Feb 2022 – Jan 2025 · New Delhi, India</span>
             </header>
             <ul>
-              <li>Refactored legacy monolith into microservices for client & bank handling (Challan Project). :contentReference[oaicite:9]{index=9}</li>
-              <li>Built VAN Generate/Merchant/Bank services enabling cash/NEFT/RTGS/IMPS flows and permissioned collections. :contentReference[oaicite:10]{index=10}</li>
-              <li>Integrated payments with multiple banks: QR (static/dynamic), Intent UPI, Wallet, BNPL, Net Banking. :contentReference[oaicite:11]{index=11}</li>
+              <li>Split a critical challan platform into microservices (client vs bank) to unlock modular releases and faster compliance updates.</li>
+              <li>Engineered VAN services enabling offline settlements (Cash, NEFT, RTGS, IMPS) with secure reconciliation workflows.</li>
+              <li>Integrated dynamic/static QR, Intent UPI, Wallet, BNPL, and Net Banking for 10+ partner banks.</li>
+              <li>Partnered with product and support to cut go-live cycles by 20% while sustaining 95% CSAT.</li>
             </ul>
           </div>
         </li>
-        <li data-animate="up" data-delay="0.12">
+        <li data-animate>
           <div class="timeline__card">
             <header>
               <h3>Software Developer Intern · SabPaisa</h3>
               <span class="meta">Aug 2021 – Jan 2022</span>
             </header>
             <ul>
-              <li>Payment Gateway REST APIs with robust CRUD & transaction recording; Agile practices. :contentReference[oaicite:12]{index=12}</li>
+              <li>Delivered REST APIs for mission-critical payment flows with reliable CRUD and reconciliation pipelines.</li>
+              <li>Championed Agile rituals and daily stand-ups to accelerate feedback and cross-team alignment.</li>
             </ul>
           </div>
         </li>
       </ol>
     </section>
 
-    <!-- ===== SKILLS ===== -->
-    <section id="skills" class="container section">
-      <div class="section__head">
-        <h2>Skills</h2>
+    <section id="skills" class="section section--skills container">
+      <header class="section__head">
+        <h2>Tech Stack</h2>
+        <p>Tools and platforms I rely on to deliver scalable systems.</p>
+      </header>
+      <div class="skills__grid">
+        <article class="skill-cluster" data-animate>
+          <h3>Core Engineering</h3>
+          <ul class="skill-badges">
+            <li><img src="assets/skills/java.svg" alt="Java">Java</li>
+            <li><img src="assets/skills/spring.svg" alt="Spring Boot">Spring Boot</li>
+            <li><img src="assets/skills/microservices.svg" alt="Microservices">Microservices</li>
+            <li><img src="assets/skills/hibernate.svg" alt="Hibernate">Hibernate</li>
+            <li><img src="assets/skills/rest.svg" alt="REST APIs">REST APIs</li>
+            <li><img src="assets/skills/soap.svg" alt="SOAP Services">SOAP Services</li>
+          </ul>
+        </article>
+        <article class="skill-cluster" data-animate data-delay="0.05">
+          <h3>Cloud &amp; DevOps</h3>
+          <ul class="skill-badges">
+            <li><img src="assets/skills/docker.svg" alt="Docker">Docker</li>
+            <li><img src="assets/skills/kubernetes.svg" alt="Kubernetes">Kubernetes</li>
+            <li><img src="assets/skills/aws.svg" alt="AWS">AWS</li>
+            <li><img src="assets/skills/git.svg" alt="Git">Git</li>
+            <li><img src="assets/skills/ci-cd.svg" alt="CI/CD">CI/CD</li>
+            <li><img src="assets/skills/linux.svg" alt="Linux">Linux</li>
+          </ul>
+        </article>
+        <article class="skill-cluster" data-animate data-delay="0.1">
+          <h3>Data &amp; Messaging</h3>
+          <ul class="skill-badges">
+            <li><img src="assets/skills/mysql.svg" alt="MySQL">MySQL</li>
+            <li><img src="assets/skills/sqlite.svg" alt="SQLite">SQLite</li>
+            <li><img src="assets/skills/kafka.svg" alt="Kafka">Kafka</li>
+            <li><img src="assets/skills/redis.svg" alt="Redis">Redis</li>
+          </ul>
+        </article>
+        <article class="skill-cluster" data-animate data-delay="0.15">
+          <h3>Quality &amp; Collaboration</h3>
+          <ul class="skill-badges">
+            <li><img src="assets/skills/junit.svg" alt="JUnit">JUnit</li>
+            <li><img src="assets/skills/postman.svg" alt="Postman">Postman</li>
+            <li><img src="assets/skills/sonarqube.svg" alt="SonarQube">SonarQube</li>
+            <li><img src="assets/skills/jira.svg" alt="Jira">Jira</li>
+            <li><img src="assets/skills/presentation.svg" alt="Presentation">Presentations</li>
+          </ul>
+        </article>
       </div>
+    </section>
 
-      <div class="skill-groups" data-animate="up">
-        <article class="skill-group">
-          <h4>Languages & Core</h4>
-          <div class="chips">
-            <span>Java (JSE/JEE)</span><span>Multithreading</span><span>Collections</span><span>Async</span><span>OOP</span>
-          </div>
+    <section id="career" class="section section--career container">
+      <header class="section__head">
+        <h2>Career Direction</h2>
+        <p>Where I’m investing next to deliver compounding impact.</p>
+      </header>
+      <div class="career__grid">
+        <article class="career-card" data-animate>
+          <span class="career-card__label">Short-Term Focus</span>
+          <h3>Microservices &amp; Observability</h3>
+          <p>Deepening expertise in distributed systems, scalable API design, containerization, and platform monitoring to accelerate modernization projects.</p>
         </article>
-        <article class="skill-group">
-          <h4>Frameworks</h4>
-          <div class="chips">
-            <span>Spring</span><span>Spring MVC</span><span>Spring Boot</span><span>Hibernate/JPA</span><span>Scheduler</span>
-          </div>
-        </article>
-        <article class="skill-group">
-          <h4>Data & Messaging</h4>
-          <div class="chips">
-            <span>MySQL</span><span>SQLite</span><span>Kafka</span>
-          </div>
-        </article>
-        <article class="skill-group">
-          <h4>DevOps & Cloud</h4>
-          <div class="chips">
-            <span>Docker</span><span>Kubernetes</span><span>AWS</span><span>Tomcat</span><span>WebLogic</span>
-          </div>
-        </article>
-        <article class="skill-group">
-          <h4>Tooling</h4>
-          <div class="chips">
-            <span>Git</span><span>Maven</span><span>Jira</span><span>Postman</span><span>SonarQube</span><span>Linux</span>
-          </div>
+        <article class="career-card" data-animate data-delay="0.08">
+          <span class="career-card__label">Long-Term Vision</span>
+          <h3>Intelligent Backend Automation</h3>
+          <p>Exploring AI/ML-driven solutions that can auto-tune infrastructure, enhance fraud detection, and enrich data-led payment experiences.</p>
         </article>
       </div>
+    </section>
 
-      <div class="marquee" aria-hidden="true">
-        <div class="marquee__track">
-          <span>REST APIs</span><span>SOAP</span><span>Encryption</span><span>Checksum</span><span>Retries/Fallbacks</span><span>CI/CD</span><span>Agile</span><span>JUnit</span>
-          <span>REST APIs</span><span>SOAP</span><span>Encryption</span><span>Checksum</span><span>Retries/Fallbacks</span><span>CI/CD</span><span>Agile</span><span>JUnit</span>
+    <section id="education" class="section container">
+      <header class="section__head">
+        <h2>Education &amp; Certifications</h2>
+      </header>
+      <div class="education__grid">
+        <article class="education-card" data-animate>
+          <h3>Master of Computer Applications</h3>
+          <p>Maharishi Dayanand University, Rohtak · 2020 – 2022</p>
+        </article>
+        <article class="education-card" data-animate data-delay="0.05">
+          <h3>Bachelor of Computer Applications</h3>
+          <p>Maharishi Dayanand University, Rohtak · 2016 – 2019</p>
+        </article>
+        <article class="education-card" data-animate data-delay="0.1">
+          <h3>Certifications</h3>
+          <ul>
+            <li>Java &amp; Problem-Solving · HackerRank</li>
+            <li>Advanced Java · Programming Hub</li>
+            <li>Oracle Java Explorer Badge</li>
+            <li>Time Management Mastery · Udemy</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section section--contact container">
+      <header class="section__head">
+        <h2>Let’s Build Together</h2>
+        <p>Ready to discuss payment engineering, modernization strategies, or the next release.</p>
+      </header>
+      <div class="contact__grid">
+        <div class="contact__info" data-animate>
+          <a class="contact-chip" href="mailto:bhuvan.parashar24@gmail.com">
+            <span>Email</span>
+            <strong>bhuvan.parashar24@gmail.com</strong>
+          </a>
+          <a class="contact-chip" href="tel:+919716052290">
+            <span>Phone</span>
+            <strong>+91 9716052290</strong>
+          </a>
+          <a class="contact-chip" href="https://www.linkedin.com/in/bhuvan-parashar/" target="_blank" rel="noopener">
+            <span>LinkedIn</span>
+            <strong>/in/bhuvan-parashar</strong>
+          </a>
         </div>
+        <form class="contact-form" onsubmit="return false" data-animate data-delay="0.08" aria-describedby="formNote">
+          <label>
+            Name
+            <input required placeholder="Your name" autocomplete="name" />
+          </label>
+          <label>
+            Email
+            <input type="email" required placeholder="you@example.com" autocomplete="email" />
+          </label>
+          <label class="span-2">
+            How can I help?
+            <textarea rows="4" required placeholder="Share a challenge or project idea"></textarea>
+          </label>
+          <button class="btn btn--primary" type="submit">Send Message</button>
+          <p id="formNote" class="muted">Prefer email or LinkedIn for a direct response. Form is a showcase.</p>
+        </form>
       </div>
-      <p class="muted center">Full skill list pulled from your résumé. :contentReference[oaicite:13]{index=13}</p>
-    </section>
-
-    <!-- ===== PROJECTS ===== -->
-    <section id="projects" class="container section">
-      <div class="section__head">
-        <h2>Projects & Impact</h2>
-      </div>
-      <div class="cards">
-        <article class="card card-tilt" data-animate="up">
-          <h3>Challan Microservices</h3>
-          <p>Modernized legacy monolith into two services (client/bank)—improved modularity, reliability, and delivery speed.</p>
-          <div class="tags"><span>Spring Boot</span><span>REST</span><span>Microservices</span></div>
-          <a class="link" href="#">Case Study</a>
-        </article>
-        <article class="card card-tilt" data-animate="up" data-delay="0.05">
-          <h3>VAN Platform</h3>
-          <p>Merchant & bank services to collect multiple payments per VAN; bank whitelisting & enable/disable flows.</p>
-          <div class="tags"><span>Payments</span><span>Security</span><span>MySQL</span></div>
-          <a class="link" href="#">Case Study</a>
-        </article>
-        <article class="card card-tilt" data-animate="up" data-delay="0.1">
-          <h3>Bank Integrations</h3>
-          <p>Integrated QR (static/dynamic), Intent UPI, Wallet, BNPL, Direct & Corporate Net Banking across 10+ banks.</p>
-          <div class="tags"><span>UPI</span><span>BNPL</span><span>SOAP/REST</span></div>
-          <a class="link" href="#">Overview</a>
-        </article>
-        <article class="card card-tilt" data-animate="up" data-delay="0.15">
-          <h3>Loyalty APIs</h3>
-          <p>Transactions→points/coupons/redemptions with improved test coverage & reliability.</p>
-          <div class="tags"><span>Design</span><span>JUnit</span><span>Postman</span></div>
-          <a class="link" href="#">Overview</a>
-        </article>
-      </div>
-      <p class="muted center">Performance improved ~30% via SQL tuning & optimization. :contentReference[oaicite:14]{index=14}</p>
-    </section>
-
-    <!-- ===== EDUCATION & CERTS ===== -->
-    <section id="education" class="container section">
-      <div class="section__head">
-        <h2>Education & Certifications</h2>
-      </div>
-      <div class="grid-2">
-        <ul class="ticks" data-animate="up">
-          <li>MCA — Maharishi Dayanand University, Rohtak (2020–2022). :contentReference[oaicite:15]{index=15}</li>
-          <li>BCA — Maharishi Dayanand University, Rohtak (2016–2019). :contentReference[oaicite:16]{index=16}</li>
-        </ul>
-        <ul class="ticks" data-animate="up" data-delay="0.06">
-          <li>Java & Problem-Solving (HackerRank)</li>
-          <li>Advanced Java (Programming Hub)</li>
-          <li>Oracle Java Explorer Badge</li>
-          <li>Time Management Mastery (Udemy)</li>
-          <li class="muted">All from your résumé. :contentReference[oaicite:17]{index=17}</li>
-        </ul>
-      </div>
-    </section>
-
-    <!-- ===== CONTACT ===== -->
-    <section id="contact" class="container section">
-      <div class="section__head"><h2>Contact</h2></div>
-      <div class="contact">
-        <a class="contact__pill" href="mailto:bhuvan.parashar24@gmail.com">✉︎ bhuvan.parashar24@gmail.com</a>
-        <a class="contact__pill" href="tel:+919716052290">☎︎ +91 9716052290</a>
-        <a class="contact__pill" href="https://www.linkedin.com/in/bhuvan-parashar/" target="_blank" rel="noopener">in / bhuvan-parashar</a>
-      </div>
-      <form class="contact-form" onsubmit="return false" aria-describedby="formNote">
-        <label>Name<input required placeholder="Your name"/></label>
-        <label>Email<input type="email" required placeholder="you@example.com"/></label>
-        <label>Message<textarea rows="4" required placeholder="How can I help?"></textarea></label>
-        <button class="btn btn--primary" type="submit">Send</button>
-        <p id="formNote" class="muted">Connect via email/LinkedIn above (static form demo).</p>
-      </form>
     </section>
   </main>
 
   <footer class="site-footer container">
-    <small>© <span id="year"></span> Bhuvan Parashar • Built with JavaScript & love</small>
+    <small>© <span id="year"></span> Bhuvan Parashar · Built with craftsmanship &amp; curiosity.</small>
   </footer>
 
   <script src="scripts.js" defer></script>

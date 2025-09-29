@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="kube-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1730"/>
+      <stop offset="100%" stop-color="#081225"/>
+    </linearGradient>
+    <linearGradient id="kube-blue" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#63a4ff"/>
+      <stop offset="100%" stop-color="#4f7bff"/>
+    </linearGradient>
+  </defs>
+  <rect width="48" height="48" rx="14" fill="url(#kube-bg)"/>
+  <path d="M24 12 34.5 16.5 38 27.5 30.4 36.5H17.6L10 27.5 13.5 16.5 24 12Z" fill="none" stroke="url(#kube-blue)" stroke-width="2.6" stroke-linejoin="round"/>
+  <circle cx="24" cy="24" r="6" fill="none" stroke="url(#kube-blue)" stroke-width="2.4"/>
+  <path d="M24 18v-5" stroke="url(#kube-blue)" stroke-width="2" stroke-linecap="round"/>
+  <path d="M29.3 20.2 33.6 18" stroke="url(#kube-blue)" stroke-width="2" stroke-linecap="round"/>
+  <path d="M30.6 26.4 34 29.6" stroke="url(#kube-blue)" stroke-width="2" stroke-linecap="round"/>
+  <path d="M24 30v5" stroke="url(#kube-blue)" stroke-width="2" stroke-linecap="round"/>
+  <path d="M18.7 27.8 14.4 30" stroke="url(#kube-blue)" stroke-width="2" stroke-linecap="round"/>
+  <path d="M17.4 21.6 14 18.4" stroke="url(#kube-blue)" stroke-width="2" stroke-linecap="round"/>
+</svg>

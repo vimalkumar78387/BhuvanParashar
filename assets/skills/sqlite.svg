@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="sqlite-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#091b2a"/>
+      <stop offset="100%" stop-color="#051320"/>
+    </linearGradient>
+    <linearGradient id="sqlite-chip" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3cb4ff"/>
+      <stop offset="100%" stop-color="#1a7fff"/>
+    </linearGradient>
+  </defs>
+  <rect width="48" height="48" rx="14" fill="url(#sqlite-bg)"/>
+  <rect x="14" y="14" width="20" height="20" rx="4" fill="none" stroke="url(#sqlite-chip)" stroke-width="2.6"/>
+  <path d="M17 24h14M24 17v14" stroke="url(#sqlite-chip)" stroke-width="2" stroke-linecap="round"/>
+  <path d="M12 19h4M12 29h4M32 19h4M32 29h4" stroke="url(#sqlite-chip)" stroke-width="2" stroke-linecap="round"/>
+</svg>

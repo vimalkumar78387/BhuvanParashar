@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="jira-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c1328"/>
+      <stop offset="100%" stop-color="#070d1c"/>
+    </linearGradient>
+    <linearGradient id="jira-blue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2684ff"/>
+      <stop offset="100%" stop-color="#0052cc"/>
+    </linearGradient>
+  </defs>
+  <rect width="48" height="48" rx="14" fill="url(#jira-bg)"/>
+  <path d="M17 14h10l8 8-8 8h-4l-4-4 8-8h-6l-8 8 12 12" fill="none" stroke="url(#jira-blue)" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="sonar-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#121728"/>
+      <stop offset="100%" stop-color="#080d1a"/>
+    </linearGradient>
+    <linearGradient id="sonar-wave" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6ee7ff"/>
+      <stop offset="100%" stop-color="#9b8cff"/>
+    </linearGradient>
+  </defs>
+  <rect width="48" height="48" rx="14" fill="url(#sonar-bg)"/>
+  <path d="M15 30c1.5-4.4 5-8 9-8s7.5 3.6 9 8" fill="none" stroke="url(#sonar-wave)" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M12 32c2-6 6.8-11 12-11s10 5 12 11" fill="none" stroke="url(#sonar-wave)" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+  <path d="M18 32c.8-2.6 3-5 6-5s5.2 2.4 6 5" fill="none" stroke="url(#sonar-wave)" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+</svg>

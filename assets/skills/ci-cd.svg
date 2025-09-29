@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="cicd-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#11182b"/>
+      <stop offset="100%" stop-color="#080d19"/>
+    </linearGradient>
+    <linearGradient id="cicd-accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6ee7ff"/>
+      <stop offset="100%" stop-color="#35ffaa"/>
+    </linearGradient>
+  </defs>
+  <rect width="48" height="48" rx="14" fill="url(#cicd-bg)"/>
+  <g fill="none" stroke="url(#cicd-accent)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M14 18h8l4 6-4 6h-8l-4-6 4-6Z"/>
+    <path d="M34 12v8"/>
+    <path d="M34 28v8"/>
+    <path d="M30 20h8"/>
+    <path d="M30 28h8"/>
+  </g>
+</svg>

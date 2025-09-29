@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 600">
+  <defs>
+    <radialGradient id="halo" cx="50%" cy="18%" r="70%">
+      <stop offset="0%" stop-color="#6ee7ff" stop-opacity="0.38"/>
+      <stop offset="60%" stop-color="#6ee7ff" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#05070f" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1328"/>
+      <stop offset="100%" stop-color="#05070f"/>
+    </linearGradient>
+    <linearGradient id="suit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#162745"/>
+      <stop offset="100%" stop-color="#0a101f"/>
+    </linearGradient>
+    <linearGradient id="shirt" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f1f5ff"/>
+      <stop offset="100%" stop-color="#9ba6c8"/>
+    </linearGradient>
+    <linearGradient id="tie" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6ee7ff"/>
+      <stop offset="100%" stop-color="#9b8cff"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="600" rx="40" fill="url(#bg)"/>
+  <ellipse cx="240" cy="190" rx="200" ry="180" fill="url(#halo)"/>
+  <path d="M240 355c-84 0-132 45-144 128l0.3 0.4a25 25 0 0 0 18.4 8.1h251.6a25 25 0 0 0 18.4-8.1l0.3-0.4c-12-83-60-128-144-128Z" fill="url(#suit)"/>
+  <path d="M240 420c-30 0-54 20-60 64h120c-6-44-30-64-60-64Z" fill="#0f1b34" opacity="0.6"/>
+  <path d="M240 126c-62 0-104 48-104 118s46 118 104 118 104-48 104-118-42-118-104-118Z" fill="#f6f7fb" opacity="0.08"/>
+  <path d="M240 136c-52 0-92 40-92 108 0 73 46 112 92 112s92-39 92-112c0-68-40-108-92-108Z" fill="#1b253b"/>
+  <path d="M240 172c-32 0-60 24-60 64 0 44 30 64 60 64s60-20 60-64c0-40-28-64-60-64Z" fill="#f3f5ff"/>
+  <path d="M240 162c18 0 34 8 45 24-10-6-23-9-38-9s-28 3-38 9c11-16 27-24 45-24Z" fill="#0b111f" opacity="0.35"/>
+  <path d="M210 304c12 14 30 20 30 20s18-6 30-20c-9 4-19 6-30 6s-21-2-30-6Z" fill="#d7def2"/>
+  <path d="M240 318 212 384l28 40 28-40Z" fill="url(#tie)"/>
+  <path d="M240 318c-52 0-90 42-100 120h40c10-56 32-80 60-80s50 24 60 80h40c-10-78-48-120-100-120Z" fill="url(#shirt)"/>
+</svg>

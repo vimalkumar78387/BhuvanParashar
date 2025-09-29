@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="mysql-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1826"/>
+      <stop offset="100%" stop-color="#07111d"/>
+    </linearGradient>
+    <linearGradient id="mysql-body" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00758f"/>
+      <stop offset="100%" stop-color="#00a8c6"/>
+    </linearGradient>
+    <linearGradient id="mysql-top" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f29111"/>
+      <stop offset="100%" stop-color="#f6ad45"/>
+    </linearGradient>
+  </defs>
+  <rect width="48" height="48" rx="14" fill="url(#mysql-bg)"/>
+  <ellipse cx="24" cy="16" rx="9" ry="4" fill="url(#mysql-top)"/>
+  <path d="M15 16v14c0 3.3 4 6 9 6s9-2.7 9-6V16" fill="none" stroke="url(#mysql-body)" stroke-width="2.6"/>
+  <path d="M15 24c0 3.3 4 6 9 6s9-2.7 9-6" fill="none" stroke="url(#mysql-body)" stroke-width="2.6"/>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="linux-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#181307"/>
+      <stop offset="100%" stop-color="#100c04"/>
+    </linearGradient>
+    <linearGradient id="linux-body" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f7d154"/>
+      <stop offset="100%" stop-color="#f7931e"/>
+    </linearGradient>
+  </defs>
+  <rect width="48" height="48" rx="14" fill="url(#linux-bg)"/>
+  <path d="M24 10c-5.8 0-9 4.4-9 10.3 0 3.5 1.2 6.5 2.8 8.8-1.1 1.2-2 2.7-2.3 4.6-.4 2.2.4 4.7 2 4.7 2.4 0 2.7-1.2 4-1.2 1.4 0 1.8 1.2 4 1.2 1.6 0 2.4-2.5 2-4.7-.3-1.9-1.2-3.4-2.3-4.6 1.6-2.3 2.8-5.3 2.8-8.8C33 14.4 29.8 10 24 10Z" fill="url(#linux-body)"/>
+  <path d="M20.5 18a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm7 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Z" fill="#0f172b"/>
+  <path d="M24 20c2 0 3.5 1.3 3.5 3 0 1.4-1.1 2.5-3.5 2.5s-3.5-1.1-3.5-2.5c0-1.7 1.5-3 3.5-3Z" fill="#fff" opacity="0.85"/>
+</svg>

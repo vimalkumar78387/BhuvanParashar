@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="soap-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1b1a30"/>
+      <stop offset="100%" stop-color="#101024"/>
+    </linearGradient>
+    <linearGradient id="soap-envelope" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#b49fff"/>
+      <stop offset="100%" stop-color="#7f6bff"/>
+    </linearGradient>
+  </defs>
+  <rect width="48" height="48" rx="14" fill="url(#soap-bg)"/>
+  <path d="M14 17h20c2.2 0 4 1.8 4 4v10c0 2.2-1.8 4-4 4H14c-2.2 0-4-1.8-4-4V21c0-2.2 1.8-4 4-4Z" fill="none" stroke="url(#soap-envelope)" stroke-width="3" stroke-linejoin="round"/>
+  <path d="m12 19 12 10 12-10" fill="none" stroke="url(#soap-envelope)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

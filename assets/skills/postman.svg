@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="postman-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#24100a"/>
+      <stop offset="100%" stop-color="#170804"/>
+    </linearGradient>
+    <linearGradient id="postman-orange" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff8a55"/>
+      <stop offset="100%" stop-color="#ff5722"/>
+    </linearGradient>
+  </defs>
+  <rect width="48" height="48" rx="14" fill="url(#postman-bg)"/>
+  <circle cx="24" cy="24" r="11" fill="url(#postman-orange)"/>
+  <path d="M24 18h-4l4 6h-5l9 8" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.85"/>
+</svg>
